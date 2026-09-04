@@ -3,104 +3,109 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Контакти</title>
+		<link rel="stylesheet" href="../css/styles.css" />
 	</head>
 
 	<body>
 		<h1>Контакти</h1>
 
-		<p>
+		<nav>
 			<a href="../index.html">Головна</a> | <a href="gallery.html">Галерея</a> |
 			<a href="contact.html">Контакти</a>
-		</p>
+		</nav>
 
-		<h2>Інформація про мене</h2>
+		<main>
+			<section class="contact-info">
+				<h2>Інформація про мене</h2>
 
-		<p>
-			<strong>Ім'я:</strong> Євгенія
-			<br />
-			<strong>Місто:</strong> Київ
-			<br />
-			<strong>Email:</strong> example@gmail.com
-		</p>
+				<p>
+					<strong>Ім'я:</strong> Євгенія
+					<br />
+					<strong>Місто:</strong> Київ
+					<br />
+					<strong>Email:</strong> example@gmail.com
+				</p>
+			</section>
 
-		<h2>Написати повідомлення</h2>
+			<h2>Написати повідомлення</h2>
 
-		<form action="#" method="post">
-			<p>
-				<label for="full_name">Ваше ім'я:</label>
-				<br />
-				<input type="text" id="full_name" name="name" />
-			</p>
+			<form action="#" method="post">
+				<p>
+					<label for="full_name">Ваше ім'я:</label>
+					<br />
+					<input type="text" id="full_name" name="name" />
+				</p>
 
-			<p>
-				<label for="email">Ваш email:</label>
-				<br />
-				<input type="text" id="email" name="email" />
-			</p>
+				<p>
+					<label for="email">Ваш email:</label>
+					<br />
+					<input type="text" id="email" name="email" />
+				</p>
 
-			<p>
-				<label for="favorite">Який хом'як вам подобається?</label>
-				<br />
+				<p>
+					<label for="favorite">Який хом'як вам подобається?</label>
+					<br />
 
-				<select id="favorite" name="favorite">
-					<option value="white">Білий</option>
-					<option value="brown">Коричневий</option>
-					<option value="black">Чорний</option>
-					<option value="golden">Сіренький</option>
-				</select>
-			</p>
+					<select id="favorite" name="favorite">
+						<option value="white">Білий</option>
+						<option value="brown">Коричневий</option>
+						<option value="black">Чорний</option>
+						<option value="golden">Сіренький</option>
+					</select>
+				</p>
 
-			<p>
-				<strong>Чи подобаються вам хом'яки?</strong>
-				<br />
+				<p>
+					<strong>Чи подобаються вам хом'яки?</strong>
+					<br />
 
-				<label>
-					<input type="radio" name="answer" value="yes" />
-					Так
-				</label>
+					<label>
+						<input type="radio" name="answer" value="yes" />
+						Так
+					</label>
 
-				<br />
+					<br />
 
-				<label>
-					<input type="radio" name="answer" value="no" />
-					Ні
-				</label>
-			</p>
+					<label>
+						<input type="radio" name="answer" value="no" />
+						Ні
+					</label>
+				</p>
 
-			<p>
-				<strong>Що вам подобається?</strong>
-				<br />
+				<p>
+					<strong>Що вам подобається?</strong>
+					<br />
 
-				<label>
-					<input type="checkbox" name="likes" value="hamsters" />
-					Хом'яки
-				</label>
+					<label>
+						<input type="checkbox" name="likes" value="hamsters" />
+						Хом'яки
+					</label>
 
-				<br />
+					<br />
 
-				<label>
-					<input type="checkbox" name="likes" value="animals" />
-					Домашні тварини
-				</label>
+					<label>
+						<input type="checkbox" name="likes" value="animals" />
+						Домашні тварини
+					</label>
 
-				<br />
+					<br />
 
-				<label>
-					<input type="checkbox" name="likes" value="photos" />
-					Фотографії тварин
-				</label>
-			</p>
+					<label>
+						<input type="checkbox" name="likes" value="photos" />
+						Фотографії тварин
+					</label>
+				</p>
 
-			<p>
-				<label for="message">Ваше повідомлення:</label>
-				<br />
+				<p>
+					<label for="message">Ваше повідомлення:</label>
+					<br />
 
-				<textarea id="message" name="message" rows="5" cols="30"></textarea>
-			</p>
+					<textarea id="message" name="message" rows="5" cols="30"></textarea>
+				</p>
 
-			<p>
-				<button type="submit">Надіслати</button>
-			</p>
-		</form>
+				<p>
+					<button type="submit">Надіслати</button>
+				</p>
+			</form>
+		</main>
 	</body>
 </html>

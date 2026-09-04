@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff8f0;
+	color: #333333;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 20px;
+}
+
+h1 {
+	color: #8b4513;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	color: #a0522d;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h3 {
+	color: #8b4513;
+	font-size: 20px;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a {
+	color: #b5651d;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	background-color: #f0d9b5;
+	padding: 15px;
+	text-align: center;
+}
+
+nav a {
+	color: #5c3317;
+	margin: 0 10px;
+}
+
+main {
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+.intro {
+	background-color: #fff0dc;
+	padding: 20px;
+}
+
+.highlight {
+	color: #d2691e;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#main-heading {
+	background-color: #f5deb3;
+	padding: 20px;
+}
+
+.pet-photo {
+	display: block;
+	margin: 20px auto;
+}
+
+table {
+	background-color: #fffaf0;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #8b4513;
+	padding: 10px;
+}
+
+th {
+	background-color: #deb887;
+	color: #4b2e16;
+}
+
+ul,
+ol {
+	line-height: 1.8;
+}
+
+.gallery {
+	background-color: #fff0dc;
+	padding: 20px;
+	text-align: center;
+}
+
+.gallery img {
+	margin: 10px;
+}
+
+.gallery-text {
+	font-style: italic;
+	color: #6b4f3a;
+}
+
+.contact-info {
+	background-color: #fff0dc;
+	padding: 20px;
+}
+
+form {
+	background-color: #f8e8d0;
+	padding: 20px;
+}
+
+input,
+select,
+textarea {
+	margin-top: 5px;
+	padding: 8px;
+}
+
+button {
+	background-color: #a0522d;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #8b4513;
+}
